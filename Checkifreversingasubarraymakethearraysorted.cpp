@@ -27,7 +27,6 @@ bool sortArr(int a[], int n)
 
 	return true; 
 } 
-
 // Driver Program 
 int main() 
 { 

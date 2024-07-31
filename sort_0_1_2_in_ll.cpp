@@ -8,7 +8,6 @@ void sortList(struct Node *head)
         count[ptr->data] += 1;
         ptr = ptr->next;
     }
- 
     int i = 0;
     ptr = head;
 

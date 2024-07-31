@@ -33,7 +33,6 @@ public:
                 }
             }
         }
-
         if(matrix[0][0]==0)
         {
             for(int i =0;i<col;i++)

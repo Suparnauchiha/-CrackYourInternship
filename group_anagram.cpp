@@ -7,7 +7,7 @@ public:
             string s = strs[i];
             sort(s.begin(),s.end());
             m[s].push_back(strs[i]);
-        }
+        } 
         for(auto i:m){
             ans.push_back(i.second);
         }

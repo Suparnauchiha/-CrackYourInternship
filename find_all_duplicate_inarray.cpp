@@ -8,7 +8,7 @@ public:
             int idx = num - 1;
             if(nums[idx] < 0)
                 result.push_back(num);
-            
+             
             nums[idx] *= -1;
         }
         return result;

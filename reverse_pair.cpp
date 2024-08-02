@@ -13,7 +13,7 @@ private:
         int left = low, right = mid+1, k=0;
         while(left<=mid && right<=high){
             if(nums[left] < nums[right]){
-                temp[k++] = nums[left++];
+                temp[k++] = nums[left++]; 
             }
             else{
                 temp[k++] = nums[right++];

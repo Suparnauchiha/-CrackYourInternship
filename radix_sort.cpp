@@ -15,9 +15,7 @@ int getMax(int arr[], int n)
     return mx;
 }
 
-// A function to do counting sort of arr[]
-// according to the digit
-// represented by exp.
+
 void countSort(int arr[], int n, int exp)
 {
 

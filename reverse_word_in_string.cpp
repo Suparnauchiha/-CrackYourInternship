@@ -9,7 +9,7 @@ public:
             while (i < n && s[i] == ' ')
                 i++;
             if (i >= n)
-                break;
+                break;  
             int j = i + 1;
             while (j < n && s[j] != ' ')
                 j++;

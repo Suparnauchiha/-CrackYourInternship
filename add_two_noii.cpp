@@ -14,7 +14,7 @@ public:
     ListNode* add(ListNode* l1, ListNode* l2){
         ListNode* head= new ListNode(-1);
         ListNode* curr= head;
-        int carry=0;
+        int carry=0; 
         while (l1!=NULL || l2!=NULL || carry>0){
             int v1=0, v2=0;
             if (l1)v1= l1->val;

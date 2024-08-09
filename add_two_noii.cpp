@@ -12,7 +12,7 @@ public:
         return prev;
     }
     ListNode* add(ListNode* l1, ListNode* l2){
-        ListNode* head= new ListNode(-1);
+        ListNode* head= new ListNode(-1);  
         ListNode* curr= head;
         int carry=0; 
         while (l1!=NULL || l2!=NULL || carry>0){
